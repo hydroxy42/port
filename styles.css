@@ -1,0 +1,82 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s;
+}
+
+.header-content {
+    padding: 50px 0;
+    text-align: center;
+}
+
+header img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #61dafb;
+    transition: transform 0.3s;
+}
+
+header img:hover {
+    transform: scale(1.15);
+}
+
+.about,
+.projects,
+.contact {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+
+.about:hover,
+.projects:hover,
+.contact:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s;
+}
+
+.project:hover {
+    background-color: #f1f1f1;
+}
+
+.contact a {
+    color: #4a90e2;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact a:hover {
+    color: #357ebd;
+}
+
+.footer-content {
+    background-color: #61dafb;
+    color: #fff;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.footer-content:hover {
+    background-color: #4a90e2;
+}
+
+h2:hover{
+    color: #61dafb;
+}
